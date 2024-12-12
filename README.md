@@ -18,6 +18,7 @@ The game is controlled by a joystick, which is connected to the Arduino board by
  - Breadboard
  - Wires
  - Resistors
+![proiect_robo](https://github.com/user-attachments/assets/05a782c5-34b4-4b0b-8fc2-ab796ee68ff7)
 
 ## Software Design
 
