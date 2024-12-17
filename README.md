@@ -25,7 +25,7 @@ The goal is to complete as many lines as possible. When a line is completed, it 
  Compenents used:
  - Arduino Uno board with ATMega328 controller
  - joystick
- - 4 8x8 LED matrices, connected through a shield that allows to matrices to be controlled with 3 pins
+ - 4 8x8 LED matrices MAX7219, connected through a shield that allows to matrices to be controlled with 3 pins https://cleste.ro/modul-4-x-matrice-led-max7219-8x8.html
  - LCD
  - Breadboard
  - Wires
