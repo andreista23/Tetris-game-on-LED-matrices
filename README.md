@@ -31,6 +31,7 @@ The goal is to complete as many lines as possible. When a line is completed, it 
  - Wires
  - Resistors
 ![proiect_robo](https://github.com/user-attachments/assets/05a782c5-34b4-4b0b-8fc2-ab796ee68ff7)
+![WhatsApp Image 2024-12-17 at 10 55 50 AM](https://github.com/user-attachments/assets/ca034c7b-ca3a-4e60-8c38-cafaced2c091)
 
 ## Software Design
 
