@@ -2,9 +2,11 @@
 
 ## Introduction
 
-The project is a game similar to Tetris. 
+The project is a game similar to ***Tetris***. 
 
-For the display, two 8x8 LED matrices will be used, positioned vertically adjacent to each other. 
+<img src="https://github.com/user-attachments/assets/87cda5a4-3e2a-4b0e-9147-e3be9092892f" alt="Image 1" width="500"/>
+
+For the display, two **8x8 LED matrices** will be used, positioned vertically adjacent to each other. 
 
 A piece will appear from the top of the "screen" and gradually descend. The player can use a controller to move the piece left or right and press a button to rotate the piece. The piece that appears at the top will be randomly selected from a list of possible pieces. 
 
@@ -32,7 +34,8 @@ The goal is to complete as many lines as possible. When a line is completed, it 
  - Resistors
 
    ### Wiring
-   LCD
+   
+   **LCD**
 - LCD RS pin to digital pin 7
 - LCD Enable pin to digital pin 6
 - LCD D4 pin to digital pin 5
@@ -45,20 +48,22 @@ The goal is to complete as many lines as possible. When a line is completed, it 
 - LCD LED+ to 5V through a 220 ohm resistor
 - LCD LED- to GND
 
-   LED matrices
+
+   **LED matrices**
 - DIN pin to digital pin 11
 - CLK pin to digital pin 13
 - CS pin to digital pin 9
 - VCC pin to 5V
 - GND pin to GND
 
-   Joystick
+
+   **Joystick**
 - VRX pin to analog pin A1
 - VRY pin to analog pin A2
 - SW pin to analog pin A0
 - VCC pin to 5V
 - GND pin to GND
-- 
+
 ![proiect_robo](https://github.com/user-attachments/assets/05a782c5-34b4-4b0b-8fc2-ab796ee68ff7)
 ![WhatsApp Image 2024-12-17 at 10 55 50 AM](https://github.com/user-attachments/assets/ca034c7b-ca3a-4e60-8c38-cafaced2c091)
 
