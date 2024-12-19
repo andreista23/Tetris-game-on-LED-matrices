@@ -34,7 +34,8 @@ The goal is to complete as many lines as possible. When a line is completed, it 
  - Resistors
 
    ### Wiring
-   
+
+   ---
    **LCD**
 - LCD RS pin to digital pin 7
 - LCD Enable pin to digital pin 6
@@ -48,7 +49,7 @@ The goal is to complete as many lines as possible. When a line is completed, it 
 - LCD LED+ to 5V through a 220 ohm resistor
 - LCD LED- to GND
 
-
+---
    **LED matrices**
 - DIN pin to digital pin 11
 - CLK pin to digital pin 13
@@ -56,7 +57,7 @@ The goal is to complete as many lines as possible. When a line is completed, it 
 - VCC pin to 5V
 - GND pin to GND
 
-
+---
    **Joystick**
 - VRX pin to analog pin A1
 - VRY pin to analog pin A2
@@ -64,7 +65,9 @@ The goal is to complete as many lines as possible. When a line is completed, it 
 - VCC pin to 5V
 - GND pin to GND
 
+Electrical diagram
 ![proiect_robo](https://github.com/user-attachments/assets/05a782c5-34b4-4b0b-8fc2-ab796ee68ff7)
+Photo of the hardware
 ![WhatsApp Image 2024-12-17 at 10 55 50 AM](https://github.com/user-attachments/assets/ca034c7b-ca3a-4e60-8c38-cafaced2c091)
 
 ## Software Design
