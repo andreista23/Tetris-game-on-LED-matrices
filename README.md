@@ -72,4 +72,51 @@ Photo of the hardware
 
 ## Software Design
 
+The software implements Tetris gameplay, menu navigation, and player interaction using Arduino. Below are the key components:
+
+### Initialization
+- **LCD and LED Matrices**:
+  - The LCD (16x2) displays the menu, current score, and high scores.
+  - The LED matrices (4x 8x8) are used to display the Tetris game grid.
+- **Joystick**:
+  - The joystick controls movement and rotation of the tetrominoes and navigates the menu.
+  - Button presses are handled using an interrupt for quick response.
+
+### Menu and Navigation
+- **Menu Options**:
+  - **Start Game**: Begins the Tetris game.
+  - **Highscore**: Displays the highest score and player name.
+  - **Enter Name**: Allows entering a name via the serial monitor.
+  - **Difficulty**: Adjusts game difficulty (Easy, Medium, Hard).
+- The joystick navigates the menu, and button presses select options.
+
+### Gameplay
+- **Tetromino Movements**:
+  - Pieces can move left, right, or down and rotate clockwise.
+  - Pieces are locked when they reach the bottom or collide with other pieces.
+- **Line Clearing**:
+  - Completed rows are cleared, and rows above shift down. The score increases accordingly.
+- **Game Over**:
+  - The game ends if new pieces cannot spawn due to filled rows.
+
+### High Score Tracking
+- The game tracks the highest score and associates it with the player's name entered via the serial monitor.
+- Updates the high score whenever a player's score exceeds the current record.
+
+### Difficulty Levels
+- Three levels (Easy, Medium, Hard) control the speed of falling pieces (`fallDelay`).
+
+### Key Functions
+- **`setup()`**: Initializes the hardware and displays a welcome message.
+- **`loop()`**: Handles menu navigation or gameplay based on the current state.
+- **`generateNewTetromino()`**: Spawns a random tetromino at the top of the grid.
+- **`checkCollision()`**: Ensures valid movement and placement of tetrominoes.
+- **`lockTetromino()`**: Locks tetrominoes into the grid and triggers line clearing.
+- **`clearLines()`**: Clears filled rows and updates the score.
+- **`updateMenu()`**: Updates the LCD with the current menu option.
+- **`showHighscore()`**: Displays the highest score and associated player name.
+- **`enterName()`**: Accepts the player's name via the serial monitor.
+- **`changeDifficulty()`**: Adjusts the game speed based on selected difficulty.
+
+This modular design ensures efficient gameplay mechanics and easy adaptation for different hardware configurations.
 ## Final results
